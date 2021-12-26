@@ -1,29 +1,41 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> /*this is for responsive web scaling relavtive to device viewport*/
+/*this is for responsive web scaling relavtive to device viewport: */
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-body {
-   background-color: rgb(0,0,0,1.0); /* (R,B,G,A) A=Alpha which is transparency values where 0.0 is fully transparent and 1.0 is opaque */
-
-}
-
-.header {
-  background-color: rgb(0,0,0,1.0);
-  text-align: Left;
-  padding: 5%;
-}
-h1 {
-   color: rgb(255,255,255);
-   font-family: verdana;
-   font-size: 300%;
-   border: 2px rdg(255,255,255);
-   padding: 30px;
-   margin: 50px;
-}
-p {
-   color: rgb(255,255,255);
-   font-family: courier;
-   font-size: 160%;
-}
-
+/*this code must be used when building a responsive grid-view: */
 * {
   box-sizing: border-box;
-}                                /*this code must be used when building a responsive grid-view*/
+}                                
+
+body {
+/* (R,B,G,A) A=Alpha which is transparency values where 0.0 is fully transparent and 1.0 is opaque */
+    background-color: rgb(237,228,230,0.93); 
+}
+
+/* header 1*/
+h1 {
+   color: rgb(255,255,255);
+   font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+   font-size: 280%;
+   border: 2px rdg(255,255,255);
+   padding: 25%;
+   margin: 50%;
+}
+
+
+p {
+   color: rgb(71,69,69.0.98);
+   font-family: "Lucida Console", "Courier New", monospace;
+   font-size: 70%;
+}
+
+
+footer {
+   background-color: rgb(237,228,230,0.93);
+   text-align: center;
+   font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+   font-size: 100%;
+   margin: 4%;
+   border: 0%; 
+   padding: 4%;
+   
+}
