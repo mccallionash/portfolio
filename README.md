@@ -22,3 +22,6 @@ The site uses W3.CSS framework to create a mobile first responsive website:
  
 This info was helpful for explaining assest libraries on github:
 https://github.com/tomcam/least-github-pages/blob/master/docs/adding-assets-directory-github-pages.md
+
+This tutorial and sample code was used to create slideshow of images:
+https://www.w3schools.com/w3css/w3css_slideshow.asp
