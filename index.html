@@ -1,52 +1,192 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<style>
-    #bioBox{
-        background:lightGrey;
-        padding:50px;
-        margin:10px;
-        border:solid 20px lightPink;
-            }
-    #title{
-        color:darksalmon;
-        font-family:fantasy;
-        font-size:3em
-    }
-    #image{
-        padding:1em;
-        margin:1em;
-        border:1em;
-        float:left;
-            }
-    #bioText{
-        color:darkgrey;
-        font-family:Verdana;
-        font-size:1em;
-        padding:1em;
-        margin:1em;
-        border:1em;        
-    }
-    </style>
-</head>
+<!DOCTYPE html>
+<html lang="en">   
+    <!--Code from W3 Schools to create mobile responsive website-->
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles.css"> <!--links to my CSS style sheet-->
+    <body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"> Aisling <b>McCallion</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#design" class="w3-bar-item w3-button">Design</a>
+      <a href="#craft" class="w3-bar-item w3-button">Craft</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Murakami & Arduino</div>
+        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+      <h3>John Doe</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <h3>Jane Doe</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+      <h3>Mike Ross</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+      <h3>Dan Star</h3>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+</div>
+
+<!-- End page content -->
+</div>
 
 
-<body>
-    <div id="bioBox">
-        <div id="title">
-        <h1> Aisling McCallion</h1></div>
-        <div id="image">
-        <img src="C:\Users\ashmc\Desktop\INTERACTION & USER EXPERIENCE DESIGN\CS6041 - INTERACTIVE MEDIA PROJECT WORKSHOP\webimages\A2.jpg" alt="Selfie of woman smiling"/></div>
-        <div id="bioText">
-        <p>
-Hi everyone!
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
 
-            My name is Aisling McCallion. I am a knitwear and textile designer-maker from Co.Donegal, Ireland. I have a BA in Fashion, Knitwear and Textile Design from <a href="https://lit.ie/LSAD">The Limerick School of Art and Design</a>. 
-            <br />
-            In LSAD I began my Shima Seiki programming journey. After graduating from LSAD, I began working for Inis Meain Knitting Company on Inis Meain, a remote island off the west coast of Co.Galway. Here I was a machine operator for seven Shima Seiki industrial knitwear machines before training as a Shima Seiki programmer while also working as the technical designer in the factory, liasoning with the CEO and technical programmers to develop prototypes and two annual collections each year. Life on an island with 120 people for two and half years can be hard so I moved back to Limerick and joined spacecraft Artist's studios while completing a Minor Award in Social Enterprise in the University of Limerick. I am really interested in the overlap of creativity, community and the relationship of ancient skills/crafts with technology. 
-            <br />
-            I go to a lot of gigs in Limerick, when it was possible and I was involved with the funding process for Feile naGreine, a free city trail of Arts and Music that takes places annually in Limerick City. I recently finished up an industry position as a brand developer for Blarney Woollen Mills, having developed their new brand 'Baye' through brand storytelling, collection design and concept while also programming prototypes and working with factory staff to use new finishing techniques on exisiting machines in their factory in Kilcar, Co.Donegal. I am excited to see what potential crossovers there are between Industrial Knitwear development and Interactive media/user experience and get to know you all!
+</body>
+</html>
 
-</p></div>
-   
+<!--    
+
+  <head> 
+    <title>Aisling McCallion</title>
+    <link rel="stylesheet" href="styles.css"> comment:links to CSS
+  </head>
+
+  <body>
+    <h1>Aisling McCallion</h1>
+
+
+    <p title="I'm a tooltip">Knitwear Designer</p> 
+    <p>Learning Interaction and Experience Design</p>
+
+    <a href="C:\Users\ashmc\Desktop\Images\AislingLogo.png">Link to my logo.</a>
+
+    <p>This is a picture of my logo <br>incase you don't like clicking links:</p>
+    <img src="C:\Users\ashmc\Desktop\Images\AislingLogo.png" alt="Logo featuring a moon, raven and flower" width="200" height="200">
+
+    <p style="color:red;"><pre>
+     The elements of my logo refer to entities I find intriguing. 
+
+     My good friend Niall Lynam, who is a talented artist, created it for me.You can find more of his work <a href="https://nialllynam.weebly.com/about.html">here</a>.
+     </pre></p>
+
+</html> -->
