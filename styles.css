@@ -1,0 +1,29 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> /*this is for responsive web scaling relavtive to device viewport*/
+
+body {
+   background-color: rgb(0,0,0,1.0); /* (R,B,G,A) A=Alpha which is transparency values where 0.0 is fully transparent and 1.0 is opaque */
+
+}
+
+.header {
+  background-color: rgb(0,0,0,1.0);
+  text-align: Left;
+  padding: 5%;
+}
+h1 {
+   color: rgb(255,255,255);
+   font-family: verdana;
+   font-size: 300%;
+   border: 2px rdg(255,255,255);
+   padding: 30px;
+   margin: 50px;
+}
+p {
+   color: rgb(255,255,255);
+   font-family: courier;
+   font-size: 160%;
+}
+
+* {
+  box-sizing: border-box;
+}                                /*this code must be used when building a responsive grid-view*/
