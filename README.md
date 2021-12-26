@@ -17,5 +17,5 @@ W3 Schools Tutorials:
  https://www.w3schools.com/css/css_rwd_grid.asp
  https://www.w3schools.com/css/css_rwd_frameworks.asp
  
-The site uses W3.CSS to create a mobile first responsive website:
+The site uses W3.CSS framework to create a mobile first responsive website:
  https://www.w3schools.com/w3css/w3css_navigation.asp
