@@ -19,3 +19,6 @@ W3 Schools Tutorials:
  
 The site uses W3.CSS framework to create a mobile first responsive website:
  https://www.w3schools.com/w3css/w3css_navigation.asp
+ 
+This info was helpful for explaining assest libraries on github:
+https://github.com/tomcam/least-github-pages/blob/master/docs/adding-assets-directory-github-pages.md
