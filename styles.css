@@ -11,6 +11,15 @@ body {
     background-color: rgb(237,228,230,0.93); 
 }
 
+/*creating responsive header image for mobile: */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    margin: 10%;
+  }
+    
+    
 /* header 1*/
 h1 {
    color: rgb(255,255,255);
@@ -25,7 +34,13 @@ h1 {
 p {
    color: rgb(71,69,69.0.98);
    font-family: "Lucida Console", "Courier New", monospace;
-   font-size: 70%;
+   font-size: 90%;
+}
+
+img {
+    margin: 4%;
+    border: 0%;
+    padding: 2%;
 }
 
 
