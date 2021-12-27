@@ -15,12 +15,11 @@ body {
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
-    display: block;
-    margin: 10%;
+    display: inherit;
   }
+}
     
-    
-/* header 1*/
+/* header 1
 h1 {
    color: rgb(255,255,255);
    font-family: "Verdana", "Arial", "Helvetica", sans-serif;
@@ -28,19 +27,15 @@ h1 {
    border: 2px rdg(255,255,255);
    padding: 25%;
    margin: 50%;
-}
+}  */
 
 
 p {
    color: rgb(71,69,69.0.98);
    font-family: "Lucida Console", "Courier New", monospace;
    font-size: 90%;
-}
-
-img {
-    margin: 4%;
-    border: 0%;
-    padding: 2%;
+   text-align: justify;
+   text-justify: inter-word;
 }
 
 
