@@ -11,6 +11,14 @@ body {
     background-color: rgb(237,228,230,0.93); 
 }
 
+@media screen and (max-width: 600px) {
+  w3-top:not(:first-child) {display: none;}
+  w3-top.icon {
+    float: right;
+    display: block;
+  }
+}
+
 p {
    color: rgb(71,69,69.0.98);
    font-family: "Lucida Console", "Courier New", monospace;
