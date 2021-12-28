@@ -19,16 +19,25 @@ p {
    text-justify: inter-word;
 }
 
+@media only screen and (max-width: 700px) {
+  p {
+    float: inherit;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+   p {
+    float: inherit;
+  }
+}
 
 footer {
    background-color: rgb(237,228,230,0.93);
    text-align: center;
    font-family: "Verdana", "Arial", "Helvetica", sans-serif;
    font-size: 100%;
-   margin: 4%;
-   border: 0%; 
-   padding: 4%;
-}
+   margin:0 auto
+} 
 
 div.gallery {
   border: 1px solid #ccc;
