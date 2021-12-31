@@ -12,7 +12,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  w3-top:not(:first-child) {display: none;}
+  div.w3-top:not(:first-child) {display: none;}
   w3-top.icon {
     float: right;
     display: block;
@@ -39,14 +39,6 @@ p {
   }
 }
 
-footer {
-   background-color: rgb(237,228,230,0.93);
-   text-align: center;
-   font-family: "Verdana", "Arial", "Helvetica", sans-serif;
-   font-size: 100%;
-   margin:0 auto
-} 
-
 div.gallery {
   border: 1px solid #ccc;
 }
@@ -63,10 +55,6 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .responsive {
@@ -92,4 +80,26 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+.audio-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgb(237,228,230,0.93);
+  font-family: "Verdana", "Arial", "Helvetica", sans-serif;
+  font-size: 100%;
 }
