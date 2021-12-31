@@ -82,24 +82,8 @@ div.desc {
   clear: both;
 }
 
-.audio-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.video-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  height: auto;
-  padding: 10px;
-}
-
-.footer {
+div.center {
   text-align: center;
-  background-color: rgb(237,228,230,0.93);
-  font-family: "Verdana", "Arial", "Helvetica", sans-serif;
-  font-size: 100%;
+  max-width: 100%;
+  height: auto;    
 }
